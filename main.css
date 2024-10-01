@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    padding: 42px 0;
+    background: rgb(82, 149, 84);
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_links{
+    color: rgb(255, 255, 255);
+font-family: "Itim";
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+padding-right: 50px;
+text-decoration: none;
+}
+
+.hero{
+    padding-top: 35px;
+}
+
+.hero_nav {
+    display: flex; /* Flexbox qo'shadi */
+    align-items: center; /* Rasm va matnni vertikal o'rtaga joylashtiradi */
+}
+
+.hero_nav img {
+    width: 874px; /* Rasmning o'lchamini sozlash (o'zingiz xohlagan o'lchamni kiriting) */
+    margin-right: 20px; /* Matn va rasm orasidagi bo'shliq */
+}
+
+
+
+.hero_title{
+    color: rgb(0, 0, 0);
+font-family: "Itim";
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero_text{
+    color: rgb(0, 0, 0);
+font-family: "Itim";
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
